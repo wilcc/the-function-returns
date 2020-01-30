@@ -6,7 +6,7 @@ let sum = 0;
 let prod = 0;
 
 function greet(name){
-  greeting = greeting + name
+  greeting = 'Hello' + ' ' + name
 }
 
 function sumOfTwo(a, b){
@@ -18,7 +18,9 @@ function multiply(a, b, c){
 }
 
 function sayHi(say){
-  return 'Hello ' + say + '!'
+  const greeting = 'Hello ' + say + '!'
+  
+  return greeting
 }
 
 function returnWhatISay(what){
@@ -26,7 +28,7 @@ function returnWhatISay(what){
 }
 
 function divide(c, d){
-  return c /d
+  return c / d
 }
 
 function remainder(c, d){
